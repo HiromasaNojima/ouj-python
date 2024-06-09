@@ -2,7 +2,7 @@ import Adafruit_DHT
 import time
 
 sensor = Adafruit_DHT.DHT22
-pin = 4
+pin = 2
 
 def get_sensor_data():
     humidity, temperature = Adafruit_DHT.read(sensor, pin)
