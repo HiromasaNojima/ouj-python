@@ -1,8 +1,7 @@
 import Adafruit_DHT
 import time
-import csv
 
-sensor = Adafruit_DHT.DHT11
+sensor = Adafruit_DHT.DHT22
 pin = 4
 
 def get_sensor_data():
