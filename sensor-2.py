@@ -28,4 +28,4 @@ while True:
         print(f'Time: {timestamp}, Temperature: {temperature:.1f}C (int: {temperature_int}C), Humidity: {humidity:.1f}% (int: {humidity_int}%)')
     else:
         print('Failed to get reading. Try again!')
-    time.sleep(60)  # 1分ごとにセンサーデータを取得
+    time.sleep(10) 
